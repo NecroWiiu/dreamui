@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.dreamui.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MinecraftClientMixin",
+    "ScreenMixin",
+    "PressableWidgetMixin",
+    "SliderWidgetMixin",
+    "MusicTrackerMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

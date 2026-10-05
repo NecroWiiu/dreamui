@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dreamui",
+  "version": "${version}",
+  "name": "Dream UI",
+  "description": "Minimalist animated menu: custom title screen, restyled buttons/sliders, fades, and menu music.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.dreamui.DreamUIClient"] },
+  "mixins": ["dreamui.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": { "modmenu": "*" }
+}

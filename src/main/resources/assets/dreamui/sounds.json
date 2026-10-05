@@ -1,0 +1,6 @@
+{
+  "menu_music": {
+    "category": "music",
+    "sounds": [ { "name": "dreamui:music/bam_bam", "stream": true } ]
+  }
+}
